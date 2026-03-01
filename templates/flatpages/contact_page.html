@@ -1,0 +1,21 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+<div style="font-family: 'Verdana', sans-serif;">
+    <h1 style="font-family: 'Arial Black', sans-serif; color: #333;">Contacts</h1>
+    <i style="font-family: 'Courier New', monospace;">89893451830 - admin</i>
+    <br>
+    <img src='https://3d-galleru.ru/3D/image/ssylka-na-otkrytku-89227/promo7.jpeg'>
+
+    <div style="font-family: 'Georgia', serif; font-size: 18px;">
+        {{ flatpage.content }}
+        {{ flatpage.content }}
+    </div>
+</div>
+{% endblock content%}
+
+
